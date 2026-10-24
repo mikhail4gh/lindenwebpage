@@ -1,0 +1,748 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        background-color: transparent;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        color: white;
+        position: fixed;
+    }
+    
+    .whole-page{
+        background-color: black;
+        width: 100%;
+    }
+    .logo{
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        font-weight: 100;
+    }
+    .schedule-btn{
+        width: 200px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding: 20px;
+        border: 1px solid black;
+        background-color: white;
+    }
+    .p1{
+        font-size: 20px;
+        color: white;
+    }
+    .p2{
+        font-size: 90px;
+        color: white;
+    }
+    .hero-section{
+        background: url(309606994_1183297678920051_5914294797212283585_nfull-removebg-preview.png);
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .discover-btn{
+        background: transparent;
+        border: 1px solid white;
+        width: 210px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        font-size: 17px;
+        color: white;
+        margin-top: 30px;
+    }
+    .address-amount{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+        padding: 30px;
+    }
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-text i{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    .scroll-down{
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scroll-down i{
+        color: white;
+        font-size: 14px;
+    }
+    .p3{
+        font-size: 20px;
+        color: white;
+    }
+    .p4{
+        font-size: 30px;
+        color: white;
+    }
+    .price-tag{
+        font-size: 35px;
+        color: white;
+    }
+    .about-text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        justify-content: center;
+        gap: 35px;
+    }
+    .about{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        padding:30px;
+        min-height: 600px;
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+    .about-image{
+        width: 50%;
+        height: 600px;
+    
+    }
+    .image-1{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .p5{
+        color: goldenrod;
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+    .place-text{
+        font-size: 55px;
+        font-weight: 300px;
+        line-height:1.1;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .p6{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .gallery-btn{
+        width: 200px;
+        height: 55px;
+        border: 1px solid gold;
+        color: gold;
+        letter-spacing: 1.5px;
+        font-size: 13px;
+        margin-top: 15px;
+        background-color: white;
+    }
+    .wreath-containers{
+        display: flex;
+        width: 70%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .wheat-1{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: center;
+        height: 60%;
+        margin-right: 50px;
+    
+    }
+    .wheat-2{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 60%;
+        align-items: center;
+        margin-right: 100px;
+    }
+    .wheat-logo{
+        width: 100px;
+        height: 50px;
+        object-fit: contain;
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+    .p7{
+        font-size: 20px;
+    }
+    .features{
+        width: 100%;
+        background-color: ivory;
+        display: flex;
+        min-height: 600px;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .p8{
+        font-size: 55px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 300;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .featured-items{
+        width: 100%;
+        height: 150px;
+        margin-top: 50px;
+        display: flex;
+        gap: 50px;
+    }
+    .property-type-box{
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-box{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .icon-box i{
+        font-size: 45px;
+    }
+    .icon-box span{
+        font-size: 20px;
+    }
+    .bedrooms{
+        width: 20%;
+        flex-direction: column;
+        align-items: center
+    }
+    .bedroom-box{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .bedroom-box i{
+        font-size: 45px;
+    }
+    .bedroom-box span{
+        font-size: 20px;
+    }
+    .bathroom{
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bathroom-box{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .bathroom-box i{
+        font-size: 45px;
+    }
+    .bathroom-box span{
+        font-size: 20px;
+    }
+    .size{
+        width: 20%;
+        flex-direction: column;
+        align-items: center
+    }
+    .size-box{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .size-box i{
+        font-size: 45px;
+    }
+    .size-box span{
+        font-size: 20px;
+    }
+    .p9{
+        color: goldenrod;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    .info-wholebox{
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .list-value{
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+    .info-firstbox, .info-secondbox{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .span-1{
+        color: goldenrod;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .span-2{
+        font-size: 20px;
+    }
+    .photo-gallery{
+        padding-top: 100px;
+        width: 100%;
+        min-height: 900px;
+        background-color: white;
+        padding-bottom: 100px;
+    }
+    .gallery-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .image-options{
+        display: flex;
+        gap: 55px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .photo-box{
+        border-bottom: 1px solid goldenrod;
+    }
+    .p10{
+        color: goldenrod;
+    }
+    .p-text{
+        font-size: 60px;
+        font-weight: 500;
+    }
+    .image-container{
+        width: 100%;
+        background-image: url(311779917_483025766901351_4406949447953033888_nfull-removebg-preview.png);
+        background-position: center;
+        background-size: contain;
+        min-height: 700px;
+    }
+    .floor-planbox{
+        width: 100%;
+        background-color: ivory;
+        min-height: 700px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .floor-textbox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        margin-top: 100px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .p11{
+        font-size: 60px;
+        font-weight: 300;
+    }
+    .picture-writeupbox{
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+    }
+    .floor-layout{
+        width: 40%;
+    
+    
+    }
+    .floor-writeup{
+        width: 47%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 80px;
+    }
+    .floor-plan{
+        width: 100%;
+    }
+        
+    .p12{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 200;
+    }
+    .build-surfacebox{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+        font-weight: 100;
+
+    }
+    .build-surfacebox i{
+        font-size: 20px;
+        color: black;
+        width: 25px;
+    }
+    .download-floor{
+        border-bottom: 1px solid goldenrod;
+        width: 200px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: goldenrod;
+    }
+    .appointment-section{
+        background-color: white;
+        width: 100%;
+        min-height: 850px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-bottom: 100px;
+    }
+    .picture-contact{
+        width: 30%;
+        background-color: ivory;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .contact-info{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+    .agent-picture{
+        width: 80%;
+        height: 400px;
+        margin-bottom: 40px;  
+    }
+    .p13{
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+    .p14{
+        font-size: 17px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+    .p15{
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+    }
+    .booking-intro{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        line-height: 30px;
+        margin-top: 50px;
+        text-align: center;
+        height: auto;
+    }
+    .p16{
+        color: goldenrod;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .p17{
+        font-size: 60px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+    .p18{
+        font-size: 18px;
+        letter-spacing: 0.4px;
+        margin-bottom: 20px;
+    }
+    .details-input{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 600px;
+        
+
+    }
+    .first-lastname{
+        background-color: none;
+        width: 92%;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .input-1{
+        width: 48%;
+        height: 50px;
+        padding-left: 20px;
+    }
+    .email-input{
+        width: 92%;
+        height: 55px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+    .message-input{
+        width: 92%;
+        height: 270px;
+        margin-bottom: 25px;
+        padding: 13px;
+        padding-bottom: 20px;
+    }
+    .send-button{
+        width: 92%;
+        height: 55px;
+        background-color: darkgoldenrod;
+        color: white;
+        border: none;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+    ::placeholder{
+        font-size: 15px;
+        color: grey;
+        font-weight: 100;
+        text-align: left;
+        font-family: inherit;
+        font-size: 15px;
+    }
+    .message-input::placeholder{
+        font-size: 15px;
+    
+    }
+    .message-input:focus::placeholder, .email-input:focus::placeholder, .first-lastname input:focus::placeholder{
+        color: transparent;
+    }
+    .connect-photos{
+        background-color: ivory;
+        width: 100%;
+        min-height: 750px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .connect-texts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    .p19{
+        font-size: 15px;
+        color: goldenrod;
+        letter-spacing: 0.5px;
+    }
+    .p20{
+        font-size: 65px;
+        font-weight: 500;
+    }
+    .photos-div{
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+    .photos-1{
+        width: 20%;
+        height: 200px;
+    }
+    .all-images{
+        width: 100%;
+        height: 100%;
+    }
+    .follow-btn{
+        width: 300px;
+        height: 55px;
+        background-color: ivory;
+        border: 1px solid goldenrod;
+        color: goldenrod;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .socials-box{
+        background-color: black;
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+
+        
+    }
+    .social-1{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 15px;
+    }
+    .social-2{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        justify-content: center;
+        padding-left: 10px;
+
+    }
+    .social-3{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+    }
+    .social-logos{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .social-logos i{
+        font-size: 22px;
+        color: grey;
+        
+    }
+    .p22{
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 1.2px;
+        color: white;
+    }
+    .p21{
+        font-size: 18px;
+        letter-spacing: 0.8px;
+        color: white;
+    }
+    .p23{
+        font-size: 25px;
+        font-weight: 300;
+        color: white;
+    }
+    .contact-us {
+        display: flex;
+        gap: 18px;
+        color: white;
+        font-size: 19px;
+    }
+    .contact-us i{
+        font-size: 20px;
+        color: grey;
+    }
+    .example-box{
+        width: 200px;
+        height: 55px;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 1px solid white;
+        color: white;
+    }
+    .ex-subs{
+        display: flex;
+        gap: 15px;
+    }
+    .subs-tab{
+        width: 160px;
+        height: 55px;
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+    }
+    .p24{
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+    }
+    .p25{
+        font-size: 20px;
+        color: white;
+    }
+    .three-in-1{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+    .right-reserved{
+        border-top: 1px solid white;
+        width: 93%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: grey;
+        font-size: 13px;
+    }
+
+    
+
+
+
+
+
+
